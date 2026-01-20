@@ -19,11 +19,30 @@ div p {
 }
 /* Universal Selector */
 *{
-background-color: blue;
-margin: 0px;
-padding: 0px;
+margin: 0;
+padding: 0;
 }
 /* Pseudo selector */
 a:visited{
     color: black;
+}
+
+.box{
+    background-color: rgb(135, 225, 225);
+}
+.box1{
+    color: yellow;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid, black ;
+    height: 200px;
+    box-sizing: border-box;
+}
+.box2{
+    color: red;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid, black ;
+    height: 200px;
+    box-sizing: border-box;
 }
