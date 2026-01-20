@@ -1,0 +1,29 @@
+/* Element selector */
+.red{
+    background-color: red;
+}
+#green{
+    background-color: aquamarine;
+    color: rgb(255, 140, 1);
+}
+/* child selector */
+div > p {
+    background-color:  brown;
+    color: rgb(52, 255, 6);
+}
+
+/* Desendent selector */
+div p {
+    color: white;
+    background-color: black;
+}
+/* Universal Selector */
+*{
+background-color: blue;
+margin: 0px;
+padding: 0px;
+}
+/* Pseudo selector */
+a:visited{
+    color: black;
+}
