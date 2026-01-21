@@ -1,0 +1,21 @@
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 500;
+    text-decoration: underline;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#key{
+    color: blueviolet;
+}
+#rgb{
+    color: rgb(28, 124, 187);
+}
+#rgba{
+    color: rgba(212, 50, 131, 0.608);
+}
+#hsl{
+    color: hsl(140 9% 32%);
+}
