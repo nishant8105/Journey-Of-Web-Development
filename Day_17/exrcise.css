@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    width: 100vw;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+.Card{
+    display: flex;
+    justify-items: auto;
+}
+.Card1{
+    background-color: whitesmoke;
+    width: 20vw;
+    height: 55vh;
+    border-radius: 5%;
+    /* border: 2px solid whitesmoke; */
+    /* display:flexbox; */
+    /* justify-content: center; */
+    position: relative;
+    left: 40vw;
+    top: 20vh;
+}
+.Card2{
+    background-color: whitesmoke;
+    width: 20vw;
+    height: 55vh;
+    border-radius: 5%;
+    /* border: 2px solid whitesmoke; */
+    /* display:flexbox; */
+    /* justify-content: center; */
+    position: relative;
+    left: 40vw;
+    top: 20vh;
+}
+#image{
+    /* justify-self: center; */
+    width: 17vw;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    left: 1.5vw;
+    top: 1.5vw ;
+}
+.tags{
+    background-color: beige;
+    color: black;
+    font-size: 15px;
+    border : 2px solid rgb(220, 173, 144);
+    border-radius: 20px;
+    padding: 2px;
+    position: relative;
+    left: 1.5vw;
+    top: 4vh;
+    margin-right: 1vw;
+}
+.heading{
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+}
+p{
+    width: 17vw;
+    position: relative;
+    left: 1.5vw;
+    top: 0.5em;
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+    position: relative;
+    left: 6.5vw;
+    align-items: center;
+    color: rgb(0, 0, 255);
+    background-color: rgb(121, 217, 232);
+    border-color: rgb(0, 109, 243);
+}
