@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+:root{
+    --color : rgb(233, 10, 181) ;
+    --seccolor: rgb(208, 139, 180);
+}
+.nav{
+    background-color: var(--color);
+
+}
+ul{
+    
+    display : flex; 
+}
+li{
+    list-style: none;
+    padding-right: 30px;
+    border: 2px solid var(--seccolor);
+}
+.container{
+    background-color: var(--seccolor);
+}
+@media only screen and (max-width: 433px){
+    body {
+        background-color: rgb(103, 103, 189);
+    }
+}
