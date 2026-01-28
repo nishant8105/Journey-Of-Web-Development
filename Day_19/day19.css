@@ -1,0 +1,12 @@
+/* .box:first-child{
+    background-color: #ff0000;
+} */
+/* .box::first-line{
+    color: aquamarine;
+} */
+.boxes :nth-child(odd){
+    background-color: blue;
+}
+.boxes::before{
+    content: "Content before all";
+}
