@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --bgcolor : rgb(25, 25, 136) ;
+    --color : rgb(255, 106, 0) ;
+}
+.nav{
+    background-color: var(--bgcolor);
+}
+.nav ul{
+    display: flex;
+    list-style-type : none;
+}
+.nav ul li{
+    margin-left: 24vw;
+    color: var(--color);
+    font-size: 20px;
+}
